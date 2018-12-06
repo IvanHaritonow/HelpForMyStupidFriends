@@ -17,5 +17,5 @@ int main()
 
 	 printf("Произведение этих чисел равно: %f \n", k);
 
-    return 0;
+    getch();
 }
