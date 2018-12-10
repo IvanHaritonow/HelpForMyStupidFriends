@@ -8,9 +8,9 @@ int main()
     int z, a;
 
       printf("z = : ");
-	  scanf("%d", &z);
+      scanf("%d", &z);
 
-	  printf("a = : ");
+      printf("a = : ");
       scanf("%d", &a);
 
       y = sqrt(z + a);
