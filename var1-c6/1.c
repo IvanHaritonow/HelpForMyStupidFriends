@@ -1,21 +1,51 @@
 #include <stdio.h>
+
+ 
 #include <stdlib.h>
 
+
 int main()
+
 {
-    int k, i, j;
-    int a[10] = {0};
-    k = 1;
 
-     printf("Введите 10 чисел \n");
+    int a, b, c, i;
+    
+    c = 1;
 
-	   for (i = 0; i <= 9; i++) {
-            scanf("%d", &j);
-            a[i] = j;
-            if (a[i] % 2 == 0 && a[i] < 15 && a[i] > 0) k *= a[i];
-	   }
+     printf("Введите количество чисел: \n");
+     scanf("%d", &a);
 
-	 printf("Произведение этих чисел равно: %f \n", k);
+
+	 for (i = 1; i <= a; i++) {
+            printf("%f", i);
+            printf(" число: %f");
+            scanf("%d", &b);
+            if (b % 2 == 0 && b < 15 && b > 0) 
+            c *= b;
+
+	 }
+
+
+	 printf("Произведение этих чисел равно: %f \n", c);
+
 
     getch();
+
 }
+ 
+int main()
+    
+  
+ 
+ 
+ 
+	
+          
+            
+ 
+	   
+ 
+	
+ 
+
+ 
