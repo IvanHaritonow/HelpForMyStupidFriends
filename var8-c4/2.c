@@ -17,8 +17,7 @@ int minOf(int a, int b, int c) {
     return min;
 }
 
-int main()
-{
+int main() {
     int a, b, c, sum;
     printf("Введите a: ");
     scanf("%d/n", &a);
