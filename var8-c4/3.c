@@ -4,7 +4,7 @@ int main()
 {
     int age;
     
-    printf("Enter your age: ");
+    printf("Введите ваш возраст: ");
     scanf("%d", &age);
     printf("Мне ");
     
