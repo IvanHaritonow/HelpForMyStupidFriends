@@ -4,7 +4,7 @@
 int main()
 {
     int enter;
-    printf("Enter the number value: ");
+    printf("Enter a numeric value: ");
     scanf("%d\n", &enter);
     
     switch (enter) {
@@ -28,9 +28,8 @@ int main()
     	         break;
     	case 9 : printf("nine");
     	         break;
-    	default : printf("Error number value!");         
+    	default : printf("Invalid numeric value!");         
     	         break;
     }
-
     getch();
 }
