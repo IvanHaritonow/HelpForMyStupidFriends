@@ -15,6 +15,6 @@ int main()
         else {
             y = (7 * x * x + 3);
         }
-        printf("Результат функции: %f \n", y);
+        printf("Результат функции: %f\n", y);
     return 0;
 }
