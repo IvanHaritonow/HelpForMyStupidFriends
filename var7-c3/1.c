@@ -11,6 +11,6 @@ int main() {
 	  if (x > -8) y = (5 * x * x + 2) / (x + 8);
 	    else y = (2 * x * x + 9);
       
-      printf("Функция y = %f", y);
+      printf("Функция y = %.0f", y);
     getch();
 }
