@@ -1,25 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    int k, d, a, i;
+int main() {
+    int sum = 0;
     
-    //k = 10;
-    printf("Введите первый член прогрессии: ");
-    scanf("%d", &k);
+       for (int d = -100; d <= -28; d += 0.4) sum += d; 
+      
+    printf("Сумма первых 180 членов прогрессии: %d", sum);
     
-    //d = 3;
-    printf("Введите разность прогрессии: ");
-    scanf("%d", &d);
-
-      a = k;
-
-	     for (i = 2; i <= 280; i++) {
-                a += d;
-	     }
-
-     printf("Сумма первых 180 членов прогрессии: %f\n", a);
-
     getch();
 }
