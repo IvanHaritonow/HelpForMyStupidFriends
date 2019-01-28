@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int dayOfMonth = 8, isBissextile;
+    int dayOfMonth, isBissextile;
     
     printf("Введите 1 если год високосный (иначе любой символ): ");
     scanf("%d", &isBissextile);
