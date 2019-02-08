@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int dayOfMonth;
+    int dayOfMonth = 5;
     
     switch (dayOfMonth) {
     case 1: printf("понедельник");
