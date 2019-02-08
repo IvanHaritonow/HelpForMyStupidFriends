@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float a, b, c;
+    float a = 3, b = 1.4, c = 2.7;
     
     if (a < 3.8 && a > 1.6) 
         printf("%f \n", a);
@@ -9,6 +9,6 @@ int main() {
         printf("%f \n", b);
     if (c < 3.8 && c > 1.6) 
         printf("%f \n", c);
-        
+    
     getch();
 }
