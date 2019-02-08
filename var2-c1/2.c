@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float C = 0.56;
+    float c = 0.56;
+    printf("%f", c);
     getch();
 }
