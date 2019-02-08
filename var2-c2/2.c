@@ -8,5 +8,6 @@ int main() {
     scanf("%d", &m);
     
     F = m * g;
+    printf("%f", F);
     getch();
 }
