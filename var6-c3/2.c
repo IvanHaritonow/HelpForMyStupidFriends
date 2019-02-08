@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int anyNum;
+    int anyNum = 10;
     
     if (5 % anyNum == 0)
         printf("Число является делителем числа 5");
