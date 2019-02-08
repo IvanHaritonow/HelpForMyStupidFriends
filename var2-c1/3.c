@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    writeln("Иванов Иван Иванович");
+    printf("Иванов Иван Иванович");
     getch();
 }
