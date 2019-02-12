@@ -1,21 +1,20 @@
 #include <stdio.h>
 
-int main(){
+int main() {
+    int check = 0;
+    int a[10] = {};
     
-    int even = 2;
-    int res;
-    int a[9] = {};
+    printf("Заполните массив: \n");
+    for(int i = 0; i < 10; i++)
+        scanf("%d", &a[i]);
     
-    for(int i = 0; i <= 8; i++){
-        res = even;
-            if(i % 2 == 0) res *= -1;
-        a[i] = res;
-        even += 2;
-    }
+    for(int i = 0; i < 10; i++)
+        if(a[i] % 2 != 0) check++;
     
-    // for(int i = 0; i <= 8; i++){
-    //     printf("%d ", a[i]);
-    // }
+    printf("Количество нечётных элементов в массиве: %d\n", check); 
+    printf("Список нечётных элементов в массиве: \n");
+    for(int i = 0; i < 10; i++)
+        if(a[i] % 2 != 0) printf("%d  ", a[i]);
     
     getch();
 }
