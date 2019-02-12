@@ -4,9 +4,8 @@ int main(){
     
     int i;
     int a[12] = {};
-    // int a[] = {5, -3, 4, -8, -9, 1, 9, 6, -3, 4, 8, 2};
     
-        for(i = 0; i <= 11; i++) scanf("%d", &a[i]);
+    for(i = 0; i <= 11; i++) scanf("%d", &a[i]);
     
     printf("%d %d %d %d %d %d %d %d %d %d %d %d\n",
         a[0], a[1], a[2], a[3], a[4], a[5], 
