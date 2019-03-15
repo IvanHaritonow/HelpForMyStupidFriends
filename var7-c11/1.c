@@ -4,7 +4,7 @@
 int main() {
     
     int a[4][4] = {};
-    int queryAmount[4] = {};
+    int queryAmount = 0;
 
     for(int i = 0; i <= 3; i++) {
         for(int j = 0; j <= 3; j++) {
@@ -18,9 +18,10 @@ int main() {
     
     for(int j = 0; j <= 3; j++) {
         for(int i = 0; i <= 3; i++) {
-            queryAmount[0] += a[i][j];
+            queryAmount += a[i][j];
         }
-        printf("%d  ", queryAmount[0]);
+        printf("%d  ", queryAmount);
+        queryAmount = 0;
     }
     
     getch();
