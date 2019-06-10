@@ -1,0 +1,7 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    int d1 = 5, d2 = 4, sinus = 30;
+    Console.WriteLine((d1 * d2 * Math.Sin(sinus)) / 2);
+  }
+}
