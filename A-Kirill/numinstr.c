@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     
     setlocale(LC_ALL, "RUS"); 
     
-    if (n < 1) {
+    if (n == 0) {
         res1 = "ноль";
     } else
     
@@ -78,6 +78,6 @@ int main(int argc, char *argv[]) {
             res2 = decades[n / 10]; 
             printf("%s %s %s%s%s%s%s", res4, chiliad, res3, check1, res2, check2, res1);
         }
-    }
+    } else printf("Значение вне зоны возможностей прогрмаммы");
     _getch();
 }
