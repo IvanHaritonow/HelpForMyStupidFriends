@@ -28,12 +28,13 @@ int main(int argc, char *argv[]) {
     
     if (n < 100) {
         if (n < 20 && n >= 10) {
-            res1 = exceptions[n];
+            res1 = exceptions[n % 10];
+            printf("%s", res1);
         } else {
             res1 = units[n % 10];
-            res2 = decades[n / 10]; 
+            res2 = decades[n / 10];
+            printf("%s %s", res2, res1);
         }
-        printf("%s %s", res2, res1);
     } else 
     
     if (n < 1000) {
@@ -43,12 +44,13 @@ int main(int argc, char *argv[]) {
         if (n / 10 != 0) check1 = " ";
         
         if (n < 20 && n >= 10) {
-            res1 = exceptions[n];
+            res1 = exceptions[n % 10];
+            printf("%s %s", res3, res1);
         } else {
             res1 = units[n % 10];
-            res2 = decades[n / 10]; 
+            res2 = decades[n / 10];
+            printf("%s %s%s%s", res3, res2, check1, res1);
         }
-        printf("%s %s%s%s", res3, res2, check1, res1);
     } else
     
     if (n < 10000) {
@@ -67,12 +69,13 @@ int main(int argc, char *argv[]) {
         res3 = hundred[n / 100];
         n = n % 100;
         if (n < 20 && n >= 10) {
-            res1 = exceptions[n];
+            res1 = exceptions[n % 10];
+            printf("%s %s %s%s%s", res4, chiliad, res3, check2, res1);
         } else {
             res1 = units[n % 10];
             res2 = decades[n / 10]; 
+            printf("%s %s %s%s%s%s%s", res4, chiliad, res3, check1, res2, check2, res1);
         }
-        printf("%s %s %s%s%s%s%s", res4, chiliad, res3, check1, res2, check2, res1);
     }
     _getch();
 }
