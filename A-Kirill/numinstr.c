@@ -6,9 +6,8 @@ int main(int argc, char *argv[]) {
     
     int n = 1;
     
-    string res1 = "", res2 = "", res3 = "", res4 = "";
-    string chiliad = "";
-    string check1 = ""; string check2 = "";
+    string res1 = "", res2 = "", res3 = "", res4 = "",
+    chiliad = "", check1 = "", check2 = "";
     
     string units[] = {"", "один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять"};
     string decades[] = {"", "", "двадцать", "тридцать", "сорок", "пятьдесят", "шестьдесят", "семьдесят", "восемьдесят", "девяносто"};
