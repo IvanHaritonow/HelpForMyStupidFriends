@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 
 int main(int argc, char *argv[]) {
     typedef const char* string;
