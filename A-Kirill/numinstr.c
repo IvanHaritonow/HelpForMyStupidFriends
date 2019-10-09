@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
     setlocale(LC_ALL, "RUS"); 
     
     if (n == 0) {
-        res1 = "ноль";
+        printf("ноль");
     } else
     
     if (n < 10) {
