@@ -74,6 +74,5 @@ int main(int argc, char *argv[]) {
         }
         printf("%s %s %s%s%s%s%s", res4, chiliad, res3, check1, res2, check2, res1);
     }
-
     _getch();
 }
