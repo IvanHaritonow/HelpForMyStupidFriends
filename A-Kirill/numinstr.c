@@ -72,7 +72,7 @@ int main(int argc, char *argv[]) {
         n = n % 100;
         if (n < 20 && n >= 10) {
             res1 = exceptions[n % 10];
-            printf("%s %s %s%s%s", res4, chiliad, res3, check2, res1);
+            printf("%s %s %s", res4, chiliad, res1);
         } else {
             res1 = units[n % 10];
             res2 = decades[n / 10]; 
